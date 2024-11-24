@@ -1,0 +1,107 @@
+body{
+    font: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 100px;
+    
+}
+.main-container {
+       
+    margin: 20px auto;     
+    padding: 20px;          
+    border: 2px solid black;
+    box-sizing: border-box; 
+    width: 700px;
+
+}
+header{
+    height: 150px;            
+    width: 100%;              
+    background-color: rgb(62, 59, 59);  
+    color: white;             
+    display: flex;         
+    align-items: center;     
+    justify-content: space-between; 
+    box-sizing: border-box;   
+    padding: 50px;
+}
+h1{
+    margin-bottom: 0px;
+    font-size: 40px;
+    margin-top: 0px;
+    color: rgb(62, 59, 59);
+   
+}
+p{
+    font-family: 'Arial', sans-serif;
+    margin: 5px;
+    
+
+}
+
+.profile-pic{
+    border-radius: 50%;
+    height: 140px;
+    width: 130px;
+    margin: 20px;
+} 
+.main-section{
+
+   
+    display: flex;
+}
+aside{
+    width: 30%;
+    background-color: rgb(189, 183, 183);
+    margin: 20px;
+    text-align: left;
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.right_section{
+
+    width: 70%;
+    margin: 20px;
+    padding: 10px;
+}
+h3{
+    font-family: 'Arial', sans-serif;
+    background-color:rgb(62, 59, 59) ;
+    color: white;
+    padding-left: 10px;
+    padding: 8px;
+
+}
+ul li{
+    margin-bottom: 7px;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+      
+}
+ul{
+    padding-left: 24px;
+}
+
+button{
+    display: flex;
+    justify-content: flex-end; 
+    margin-left: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    position: relative;
+
+
+    
+}
+button:hover{
+    background-color: rgb(62, 59, 59) ;
+    color: #f4f4f4;
+}
+.personal_info p{
+    padding-left: 30px;
+}
+
+
